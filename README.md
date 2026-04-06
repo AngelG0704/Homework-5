@@ -6,11 +6,29 @@ and a completion status. I was able to then use actions that would create, read,
 
 How to Run -
 
-Prerequisites 
+1. Prerequisites 
 
 Java 17 or 21
 Maven
 
-Clone Repository 
+2. Clone Repository 
 
-git clone 
+git clone https://github.com/AngelG0704/Homework-5.git
+cd campus-taskboard
+
+3. Run the application
+
+mvnw.cmd spring-boot:run
+
+4. Confirm it's running
+
+look for Started CampusTaskboardApplication in the console and then the server should be avalible at http://localhost:8080/api/tasks
+
+API endpoints- 
+
+Method            Endpoint         Description
+GET               /api/tasks       Returns all tasks
+GET               /api/tasks/{id}  Returns a single tasks by ID
+POST              /api/tasks       Creates a new task
+PUT              /api/tasks/{id}   Updates an existing task
+DELETE          /api/tasks/{id}    Deletes a task
