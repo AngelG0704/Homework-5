@@ -14,6 +14,7 @@ Maven
 2. Clone Repository 
 
 git clone https://github.com/AngelG0704/Homework-5.git
+
 cd campus-taskboard
 
 3. Run the application
